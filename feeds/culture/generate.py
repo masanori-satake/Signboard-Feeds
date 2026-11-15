@@ -340,7 +340,7 @@ def main() -> int:
     items = build_items(today)
     pub = today.strftime("%a, %d %b %Y 06:00:00 +0900")
     xml = render_rss(
-        title="カルチャー番線",
+        title="MSatake Culture",
         link="https://www.wikidata.org/",
         description="カルチャーの記念日と、いま話題の作品（出典：Wikidata、Wikimedia Pageviews、MADB、openBD）",
         items=items,
